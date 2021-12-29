@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/salmon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+    transition: 0.4s;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #F2F2F2;
+    background-color: rgba(39, 39, 39, 0.808);
+    position: fixed;
+}
+.header a.icon {
+    background: #0D0D0D;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.navbarLeft {
+    float: left;
+    color: #D94E41;
+    font-family: 'Great Vibes', cursive;
+}
+
+.navbarRight {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    left: -150px;
+    transition: 0.3s; 
+    padding: 20px;
+    width: 200px; 
+    font-family:'Montserrat', sans-serif;
+}
+
+.navbarRight a:hover {
+    left: 0;
+}
+
+
+.container {
+    width: 100%;
+    font-family:'Montserrat', sans-serif;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.singleReview {
+    opacity: 0.6;
+    margin: 20px;
+    padding: 10px;
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: #404040 solid 2px;
+    color: #F2F2F2;
+    background-color: #737373;
+}
+
+.singleReview:hover{
+    opacity: 1;
+    color: #F2F2F2;
+    background-color: #737373;
+}
+
+
+
+button {
+    text-transform: uppercase;
+    color: #404040;
+    background-color: #B8BFA8;
+    padding: 1px 2px;
+    margin: 2px;
+    width: 200px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+button:hover{
+    color: #B8BFA8;
+    background-color: #404040;
+}
+
+.details {
+    text-decoration: none;
+    color: #404040;
+}
+
+.details:hover {
+    text-decoration: none;
+    color:#400101;
+}

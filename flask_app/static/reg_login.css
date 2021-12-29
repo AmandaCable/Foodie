@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;;
+}
+
+body {
+    background-image: url(./images/people_eating_.original1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* FORMS */
+.registerForm{
+    width: 40%;
+    min-height: 500px;
+    padding: 10px;
+    color: #dcd3b9;
+    background: rgba(39, 39, 39, 0.808);
+}
+
+.loginForm{
+    width: 40%;
+    min-height: 200px;
+    margin-left: -50px;
+    padding: 10px;
+    background-color: #dcd3b9;
+}
+
+
+
+/* INPUTS */
+input {
+    margin: 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #dcd3b9;
+}
+
+.loginInputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+/* HEADERS */
+.regHeader {
+    margin: 10px;
+    color: #dcd3b9;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.loginHeader {
+    margin: 10px;
+    color: #2f3d3c;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+
+
+/* BUTTONS */
+.regbutton{
+    background-color: #dcd3b9;
+    color: black;
+    padding: 5px 10px;
+    margin: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.loginbutton{
+    text-transform: uppercase;
+    color: #dcd3b9;
+    background-color: #2f3d3c;
+    padding: 5px 10px;
+    margin: 10px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
